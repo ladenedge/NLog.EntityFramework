@@ -10,7 +10,7 @@
         <projectUrl>http://github.com/ladenedge/NLog.EntityFramework</projectUrl>
         <iconUrl>http://raw.github.com/ladenedge/NLog.EntityFramework/master/NLog.EntityFramework.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>An NLog databsae target that is configurable via an Entity Framework connection string.</description>
+        <description>An NLog database target that is configurable via an Entity Framework connection string.</description>
         <releaseNotes/>
         <copyright>Copyright Jay Miller 2012</copyright>
         <tags>nlog entity-framework</tags>

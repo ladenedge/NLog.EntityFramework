@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("NLog.EntityFramework")]
-[assembly: AssemblyDescription("An NLog databsae target that is configurable via an Entity Framework connection string.")]
+[assembly: AssemblyDescription("An NLog database target that is configurable via an Entity Framework connection string.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jay Miller")]
 [assembly: AssemblyProduct("NLog")]
