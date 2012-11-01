@@ -2,7 +2,7 @@
 <package >
     <metadata>
         <id>NLog.EntityFramework</id>
-        <version>1.0.0</version>
+        <version>$Version$</version>
         <title>NLog.EntityFramework</title>
         <authors>Jay Miller</authors>
         <owners>Jay Miller</owners>
