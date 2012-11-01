@@ -1,0 +1,16 @@
+
+= NLog.EntityFramework
+
+NLog.EntityFramework provides a way to use the otherwise wonderful
+{NLog}[http://nlog-project.org/] logging framework with an Entity
+Framework connection string.
+
+This library is the result of a {fruitless search}[http://stackoverflow.com/questions/9135453/nlog-with-an-entity-framework-connection-string]
+within the stock NLog library for a way to log to a database using an
+Entity Framework connection string.  It is a full rewrite of NLog's
++DatabaseTarget+ rather than an extension of that class because it is
+(for whatever reason) declared as +sealed+.
+
+Like NLog itself, NLog.EntityFramework is open source software, licensed
+under the terms of the {BSD license}[https://github.com/ladenedge/NLog.EntityFramework/blob/master/LICENSE.txt].
+It also uses code from NLog written by Jaroslaw Kowalski, the author of NLog.

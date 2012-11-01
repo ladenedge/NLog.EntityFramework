@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>NLog.EntityFramework</id>
+        <version>1.0.0</version>
+        <title>NLog.EntityFramework</title>
+        <authors>Jay Miller</authors>
+        <owners>Jay Miller</owners>
+        <licenseUrl>http://raw.github.com/ladenedge/NLog.EntityFramework/master/LICENSE.txt</licenseUrl>
+        <projectUrl>http://github.com/ladenedge/NLog.EntityFramework</projectUrl>
+        <iconUrl>http://raw.github.com/ladenedge/NLog.EntityFramework/master/NLog.EntityFramework.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An NLog databsae target that is configurable via an Entity Framework connection string.</description>
+        <releaseNotes/>
+        <copyright>Copyright Jay Miller 2012</copyright>
+        <tags>nlog entity-framework</tags>
+        <dependencies>
+            <dependency id="NLog" version="2.0.0.2000" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="lib\net35\NLog.EntityFramework.dll" target="lib\net35" />
+        <file src="lib\net35\NLog.EntityFramework.xml" target="lib\net35" />
+        <file src="lib\net40\NLog.EntityFramework.dll" target="lib\net40" />
+        <file src="lib\net40\NLog.EntityFramework.xml" target="lib\net40" />
+    </files>
+</package>
