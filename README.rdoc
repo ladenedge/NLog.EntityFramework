@@ -11,6 +11,14 @@ Entity Framework connection string.  It is a full rewrite of NLog's
 +DatabaseTarget+ rather than an extension of that class because it is
 (for whatever reason) declared as +sealed+.
 
+NLog.EntityFramework is available via {NuGet}[https://nuget.org/packages/NLog.EntityFramework].
+To install it, run the following command in the {Package Manager Console}[http://docs.nuget.org/docs/start-here/using-the-package-manager-console]:
+
+ PM> Install-Package NLog.EntityFramework
+
+Please see the {wiki}[https://github.com/ladenedge/NLog.EntityFramework/wiki]
+for usage and an example.
+
 Like NLog itself, NLog.EntityFramework is open source software, licensed
 under the terms of the {BSD license}[https://github.com/ladenedge/NLog.EntityFramework/blob/master/LICENSE.txt].
 It also uses code from NLog written by Jaroslaw Kowalski, the author of NLog.
